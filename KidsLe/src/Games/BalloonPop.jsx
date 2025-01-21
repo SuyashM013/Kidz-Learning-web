@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import confetti from "canvas-confetti";
 import Right from '@/assets/Right.wav'
 import Wrong from '@/assets/Wrong.wav'
-import Pop from '@/assets/pop.mp3'
+import Pop from '@/assets/Pop.mp3'
 
 const AlphabetBalloonPopGame = () => {
   const [targetAlphabet, setTargetAlphabet] = useState("");
